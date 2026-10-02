@@ -25,6 +25,7 @@ const config: Config = {
   organizationName: 'FaithOmbongi', // Usually your GitHub org/user name.
   projectName: 'docusaurus-second-site', // Usually your repo name.
   trailingSlash: false, // GitHub pages does not like trailing slashes
+  deploymentBranch: 'gh-pages', // The branch the site is deployed to.
 
   onBrokenLinks: 'throw',
 
