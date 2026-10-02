@@ -18,12 +18,13 @@ const config: Config = {
   url: 'https://FaithOmbongi.github.io', // Your website URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docusaurus-second-site/',
+  baseUrl: 'docusaurus-second-site',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'FaithOmbongi', // Usually your GitHub org/user name.
   projectName: 'docusaurus-second-site', // Usually your repo name.
+  trailingSlash: false, // GitHub pages does not like trailing slashes
 
   onBrokenLinks: 'throw',
 
